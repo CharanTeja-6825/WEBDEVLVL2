@@ -77,19 +77,19 @@ console.log(rest);
 // mapping user names and converting them into an array using fetch()
 
 fetch("https://dummyjson.com/users")
-                .then((response) => {
-                    if(response){
-                        return response.json();
-                    }
-                })
-                .then((data) => {
-                    const userData = data.users;
-                    const names = userData.map(({firstName}) => firstName);
-                    console.log(names);
-                })
-                .catch((error) => {
-                    console.log(error);
-                });
+    .then((response) => {
+        if(response){
+            return response.json();
+        }
+    })
+    .then((data) => {
+        const userData = data.users;
+        const names = userData.map(({firstName}) => firstName);
+        console.log(names);
+    })
+    .catch((error) => {
+        console.log(error);
+    });
 
 // console.log(results);
 
