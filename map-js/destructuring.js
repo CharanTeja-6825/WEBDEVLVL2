@@ -96,6 +96,19 @@ fetch("https://dummyjson.com/users")
 // const names = results.map(({firstName}) => firstName);
 // console.log(names);
 
+// destructuring excercises
+
+const test = [1, 2, 3, 4, 5];
+
+// const [init, ...remaining] = test;
+
+// console.log(init, remaining);
+
+
+
+
+
+
 
 
 
