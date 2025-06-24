@@ -161,7 +161,7 @@ const displayCustomData = ({key1, key2}) => {
     console.log(`Key 1 : ${key1}, Key 2 : ${key2}`);
 };
 
-displayCustomData({key1 : "data 1", key2 : "data 2"});
+displayCustomData({key1 : "data 1", key2 : "data 2"}); 
 
 
 
