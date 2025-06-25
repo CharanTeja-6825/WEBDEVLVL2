@@ -1,9 +1,11 @@
 {
-  "name": "express-app",
+  "name": "express-app", 
   "version": "1.0.0",
+  "node_version" : "22.15.1",
   "description": "``` create a simple express server which serves static file assets. ```",
   "main": "index.js",
   "scripts": {
+    "dev" : "node --watch index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
