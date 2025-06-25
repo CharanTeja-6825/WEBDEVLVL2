@@ -16,3 +16,14 @@
 
 ### 2. Introduction to Express.js
 
+ **Introduction to Express Js**
+    
+  -**What is Express js**
+    - Express Js is a flexible node.js framework used to handle server side logic.
+    - It is used to handle server request, organizing the routes and handling the middleware logic and request/responses.
+  
+  -**Why it is used**
+    - To handle HTTP requests from the client.
+    - Provides middleware for handling routes and static assets easily.
+
+
