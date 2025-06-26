@@ -36,7 +36,7 @@
   **CommonJs**
     - CommonJs in Node js is also used to share functionality between js files, but the procedure is different i.e here the file functionalities are shared using a require() method which takes the file name as argument.
     - And also the file which is going to be exported should also contain something like this...
-    ```js
+    ```javascript
     const add = (a, b) => {
       return (a+b);
     }
@@ -46,7 +46,7 @@
     module.export = {add, mul};
     ```
     - And while importing it looks like this...
-    ```js
+    ```javascript
     const math = require("./math);
     // you can use the function as
     const result = math.add(23, 66);

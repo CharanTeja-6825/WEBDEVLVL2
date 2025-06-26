@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Hello World
+    <script>
+        console.log("this is the html file");
+        async function getData(){
+            // const result = await fetch("/api-call").then((response) => response.json());
+            const result = await (await fetch("/api-call")).json();
+            console.log(result);
+            document.body.append(JSON.stringify(result));
+        }
+        getData();
+    </script>
+</body>
+</html>
