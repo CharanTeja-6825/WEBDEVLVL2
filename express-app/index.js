@@ -2,8 +2,6 @@
 
 const express = require("express");
 const path = require("path");
-
-
 const app = express();
 
 // this line below enables the serving of static file such as html, css, image, and other formats anywhere you init this .
@@ -27,7 +25,6 @@ app.listen(port, function() {
 // testing with app.get() -> this takes two arguments get("/(route or request)", callback => (request, response))
 
 //Example : 
-
 app.get("/ping", (request, response) => {
     // console.log("REQUEST:", request);
     console.log("REQUEST:", "/"+request.method, request.headers.host);
